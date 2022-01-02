@@ -86,17 +86,17 @@ public class ClearManager : MonoBehaviour
                     hpMission = true;
                 }
 
-                print("≈¨∏ÆæÓ");
+                print("ÌÅ¥Î¶¨Ïñ¥");
                 print(starCount);
 
                 switch (starCount)
                 {
-                    // ∫∞ 0∞≥ ∫Í∑–¡Ó
+                    // Î≥Ñ 0Í∞ú Î∏åÎ°†Ï¶à
                     case 0:
                         rankB.gameObject.SetActive(true);
                         break;
 
-                    // ∫∞ 1∞≥ ∫Í∑–¡Ó
+                    // Î≥Ñ 1Í∞ú Î∏åÎ°†Ï¶à
                     case 1:
                         if (killMission)
                         {
@@ -119,7 +119,7 @@ public class ClearManager : MonoBehaviour
                         rankB.gameObject.SetActive(true);
                         break;
 
-                    // ∫∞ 2∞≥ «√∑°∆º≥—
+                    // Î≥Ñ 2Í∞ú ÌîåÎûòÌã∞ÎÑò
                     case 2:
                         if (killMission && timeMission)
                         {
@@ -148,7 +148,7 @@ public class ClearManager : MonoBehaviour
                         rankP.gameObject.SetActive(true);
                         break;
 
-                    // ∫∞ 3∞≥ ¥Ÿ¿Ãæ∆
+                    // Î≥Ñ 3Í∞ú Îã§Ïù¥ÏïÑ
                     case 3:
                         upStar.GetComponent<Toggle>().isOn = true;
                         downStar.GetComponent<Toggle>().isOn = true;
